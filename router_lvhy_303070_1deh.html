@@ -1,0 +1,44 @@
+const isPalindrome = str => str === str.split("").reverse().join("");
+85,41,97,25,43,78,63,83,5,17,30,73,71,59,25,36,55,35,68,71,47,39,13,11,33,98,99,88,28,82,52,52,66,85,88,32,26,33,16,3,2,71,86,57,24,67,69,86,35,92,0,96,77,63,76,92,88,20,79,39,38,46,5,69,50,83,49 * 62,46,77,81
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+4 + 20
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+68,38,74,49,6,25,86,96,98,25,40,28,64,23,26,96,15,0,5,17,65,49,67,87,14,90,96,91,24,84,99,32,82,96,6,4,2,90,13,65,10,63,81,49,57,53,22,60,9,65,36,62,72,85,45,0,65,46,0,46,58,73,37,53 + false
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sum = (a, b) => a + b;
+const getRandomElement = array => array[getRandomIndex(array)];
+orange + kiwi
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+orange
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+71 / 57
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomElement = array => array[getRandomIndex(array)];
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+77 * 60
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+// This is a comment
+false - true
+const capitalizeString = str => str.toUpperCase();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+32 * true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const reverseString = str => str.split("").reverse().join("");
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
